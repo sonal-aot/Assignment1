@@ -136,9 +136,6 @@ img{
 	gap: 30px;
 }
 
-.body-img {
-	/* max-width: 550px; */
-}
 
 .home-text {
 	display: flex;
@@ -236,7 +233,7 @@ img{
 	margin: 20px 0 0 0;
 	max-width: 93%;
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	justify-content: space-between;
 	align-items: center;
 }
