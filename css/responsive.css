@@ -127,11 +127,11 @@
 		display: none;
 	}
 
-	.btn-ham:checked~.list-menu {
+	.btn-ham:checked ~ .list-menu {
 		display: flex;
 	}
 
-	.cross-btn:active~.list-menu {
+	.cross-btn:checked~.list-menu {
 		display: none;
 		transition: all 0.5s;
 	}
@@ -144,21 +144,6 @@
 	.btn-ham:checked~.cross-btn {
 		display: block;
 		transition: all 0.5s;
-	}
-
-
-	.list {
-		font-family: 'Poppins';
-		/* border: 1px solid black; */
-		padding: 16px;
-		font-size: 16px;
-		font-weight: 600;
-	}
-
-	.list:hover {
-		background-color: #F0FDF9;
-		color: #107569;
-
 	}
 
 

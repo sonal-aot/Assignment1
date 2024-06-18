@@ -3,7 +3,7 @@ body {
 	margin: auto;
 }
 
-img{
+img {
 	max-width: 100%;
 }
 
@@ -191,6 +191,20 @@ img{
 	justify-content: center;
 	text-align: start;
 	background-color: white;
+}
+
+.list {
+	font-family: 'Poppins';
+	/* border: 1px solid black; */
+	padding: 16px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.list:hover {
+	background-color: #F0FDF9;
+	color: #107569;
+
 }
 
 
@@ -558,12 +572,12 @@ img{
 /* accordion */
 
 
-#accordion{
+#accordion {
 	display: none;
 	flex-direction: column;
 }
 
-#accordion label{
+#accordion label {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -578,15 +592,15 @@ img{
 
 }
 
-#accordion label span{
+#accordion label span {
 	font-size: 22px;
 	transform: rotate(90deg);
 	color: rgb(151, 150, 150);
 }
 
 
-#accordion label + input[type="radio"] {
-    display: none;
+#accordion label+input[type="radio"] {
+	display: none;
 }
 
 
@@ -600,7 +614,7 @@ img{
 	text-align: start;
 	color: #475467;
 	background-color: white;
-	
+
 }
 
 
